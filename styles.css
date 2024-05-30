@@ -106,8 +106,18 @@ h3 {
   text-align: center;
 }
 
-table {
-  float: inline-start;
+.cities-comparison-container {
+  margin-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#cities-comparison-header {
+  float: left;
+}
+
+#cities-comparison-list {
+  float: right;
 }
 
 table,
@@ -128,7 +138,6 @@ a:hover {
 }
 
 #state-flag {
-  float: right;
   margin-left: 30px;
   height: 80px;
   width: 130px;
