@@ -175,3 +175,31 @@ main section #contact {
   align-items: center;
   max-width: 800px;
 }
+
+#main-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#main-about p,
+#main-about ul {
+  text-align: left;
+  width: 100%;
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#faq p,
+#faq ul {
+  text-align: left;
+  width: 100%;
+}
